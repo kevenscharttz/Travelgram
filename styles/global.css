@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:colors {
+    /* brand color*/
+    --branc-color: #ED5F4C;
+
+    /*shape color*/
+    --background-color: #FFFFFF;
+    --surface-color: #F5F5F5;
+    --skeleton-color: #D9D9D9;
+    --shape-transparency-color: #FFFFFF8F;
+
+    /*text color*/
+    --text-primary-color: #313131;
+    --text-secondary-color: #6C6C6C;
+}
+
+:fonts {
+    --heading: 32px/125% "Poppins", sans-serif bold;
+    --paragraph-md: 14px/175% "Poppins", sans-serif; 
+    --paragraph-sm: 12px/170% "Poppins", sans-serif; 
+}
