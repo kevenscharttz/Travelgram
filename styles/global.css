@@ -22,12 +22,15 @@
     --text-secondary-color: #6C6C6C;
 
     /*fonts*/
-    --heading: 32px/125% "Poppins", sans-serif bold;
-    --paragraph-md: 14px/175% "Poppins", sans-serif; 
-    --paragraph-sm: 12px/170% "Poppins", sans-serif; 
+    --font:"Poppins", sans-serif;
+    --text-lg: var(--font) 32px/125% bold; 
+    --text: var(--font) 16px/170%;
+    --text-md: var(--font) 14px/175%; 
+    --text-sm: var(--font) 12px/170%; 
 }
 
 body {
+    font: var(--text-lg);
     color: var(--text-secondary-color);
     background-color: var(--background-color);
 }
